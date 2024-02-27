@@ -34,24 +34,24 @@ urllib3 = "*"
 swagger-spec-validator = ">=2.7.4"
 
 # Additional integrations
-kedro-neptune = { version = "*", optional = true, python = "<3.11" }
-neptune-detectron2 = { version = "*", optional = true, python = ">=3.7"}
-neptune-fastai = { version = "*", optional = true }
-neptune-lightgbm = { version = "*", optional = true }
-pytorch-lightning = { version = "*", optional = true }
-neptune-optuna = { version = "*", optional = true }
-neptune-prophet = { version = "*", optional = true }
-neptune-pytorch = { version = "*", optional = true }
-neptune-sacred = { version = "*", optional = true }
-neptune-sklearn = { version = "*", optional = true }
-neptune-tensorflow-keras = { version = "*", optional = true }
-neptune-tensorboard = { version = "*", optional = true }
-neptune-xgboost = { version = "*", optional = true }
-transformers = { version = "*", optional = true }
-zenml = { version = "*", optional = true }
-neptune-aws = { version = "*", optional = true }
-neptune-mlflow = { version = "*", optional = true }
-neptune-airflow = { version = "*", optional = true }
+#kedro-neptune = { version = "*", optional = true, python = "<3.11" }
+#neptune-detectron2 = { version = "*", optional = true, python = ">=3.7"}
+#neptune-fastai = { version = "*", optional = true }
+#neptune-lightgbm = { version = "*", optional = true }
+#pytorch-lightning = { version = "*", optional = true }
+#neptune-optuna = { version = "*", optional = true }
+#neptune-prophet = { version = "*", optional = true }
+#neptune-pytorch = { version = "*", optional = true }
+#neptune-sacred = { version = "*", optional = true }
+#neptune-sklearn = { version = "*", optional = true }
+#neptune-tensorflow-keras = { version = "*", optional = true }
+#neptune-tensorboard = { version = "*", optional = true }
+#neptune-xgboost = { version = "*", optional = true }
+#transformers = { version = "*", optional = true }
+#zenml = { version = "*", optional = true }
+#neptune-aws = { version = "*", optional = true }
+#neptune-mlflow = { version = "*", optional = true }
+#neptune-airflow = { version = "*", optional = true }
 
 [tool.poetry.extras]
 aws = ["neptune-aws"]
