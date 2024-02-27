@@ -4,6 +4,15 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
+    allow:
+      - dependency-name: "importlib-metadata"
+      - dependency-name: "typing-extensions"
+      - dependency-name: "six"
+      - dependency-name: "future"
+      - dependency-name: "packaging"
+      - dependency-name: "click"
+      - dependency-name: "bravado"
+
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
