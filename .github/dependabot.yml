@@ -12,6 +12,12 @@ updates:
       - dependency-name: "packaging"
       - dependency-name: "click"
       - dependency-name: "bravado"
+    ignore:
+      - dependency-name: "zenml"
+      - dependency-name: "mlflow"
+      - dependency-name: "tensorflow"
+      - dependency-name: "neptune-prophet"
+      - dependency-name: "spacy"
 
   - package-ecosystem: "github-actions"
     directory: "/"
